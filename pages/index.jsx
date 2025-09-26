@@ -41,21 +41,20 @@ const Index = () => {
                     data-splitting="chars"
                     data-animate="active"
                   >
-                    <span>
-                      <b>Zoé</b> Miller{" "}
+                    <span style={{fontSize: '50px'}}>
+                      <b>Manuel</b> Dominguez{" "}
                     </span>
                   </h1>
                   <div className="label lui-subtitle">
                     {" "}
-                    I am <strong>Web Developer</strong>
+                    I am <strong>Game Developer</strong>
                   </div>
                 </div>
                 <div className="description">
                   <div>
                     <p>
-                      From France, Paris. I have rich experience in web design,
-                      also I am good at wordpress. I love to talk with you about
-                      our unique.
+                      Game developer with 10+ years’ experience in Unity, 
+                      Unreal, VR, and multiplayer solutions.
                     </p>
                   </div>
                   <div className="social-links">
@@ -116,14 +115,14 @@ const Index = () => {
                   <ul>
                     <li>
                       <span className="num">
-                        12 <strong>+</strong>
+                        10 <strong>+</strong>
                       </span>
                       <span className="value">
                         Years of <strong>Experience</strong>
                       </span>
                     </li>
                     <li>
-                      <span className="num">330</span>
+                      <span className="num">100+</span>
                       <span className="value">
                         Completed <strong>Projects</strong>
                       </span>
@@ -178,65 +177,6 @@ const Index = () => {
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
-                    <span> Web Development </span>
-                  </div>
-                  <div className="icon" />
-                  <h5 className="lui-title">
-                    <span> Web Design &amp; Logo </span>
-                  </h5>
-                  <div className="lui-text">
-                    <div>
-                      {" "}
-                      Web designers craft the overall vision &amp; plan for a
-                      website layout. Professional logo development: Business,
-                      Company, or Personal.{" "}
-                    </div>
-                  </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
-                  <div
-                    className="image"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
-                  <div className="lui-subtitle">
-                    <span> Apps Development </span>
-                  </div>
-                  <div className="icon" />
-                  <h5 className="lui-title">
-                    <span> iOS &amp; Android </span>
-                  </h5>
-                  <div className="lui-text">
-                    <div>
-                      <p>
-                        Design Software applications to run on mobile devices.
-                        Modern and mobile-ready application that will help you
-                        reach all of your marketing.
-                      </p>
-                    </div>
-                  </div>
-                  <a href="#pricing-section" className="lnk">
-                    {" "}
-                    See Pricing{" "}
-                  </a>
-                  <div
-                    className="image"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="services-item">
-                  <div className="lui-subtitle">
                     <span> Game Development </span>
                   </div>
                   <div className="icon" />
@@ -245,15 +185,14 @@ const Index = () => {
                   </h5>
                   <div className="lui-text">
                     <div>
-                      {" "}
-                      Creating games &amp; describes the design, development and
-                      release of a game. Developing unique mobile android and
-                      ios games.{" "}
+                      Expert in developing immersive and high-performance games 
+                      with Unity and Unreal Engine using C# and C++. Specialized 
+                      in VR, shaders, AI behaviors, physics, and multiplayer systems.
                     </div>
                   </div>
-                  <a href="#pricing-section" className="lnk">
+                  <a href="#portfolio-section" className="lnk">
                     {" "}
-                    See Pricing{" "}
+                    View Portfolio{" "}
                   </a>
                   <div
                     className="image"
@@ -263,26 +202,26 @@ const Index = () => {
                   />
                 </div>
               </SwiperSlide>
+
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
-                    <span> Advertising </span>
+                    <span> Virtual Reality </span>
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span> Google Ads </span>
+                    <span> Oculus &amp; OpenXR </span>
                   </h5>
                   <div className="lui-text">
                     <div>
-                      {" "}
-                      Advertising services include: Google search result pages,
-                      gmails, YouTube and other websites participated in Google
-                      Ads program.{" "}
+                      Building engaging VR applications optimized for Oculus Rift, HTC Vive, 
+                      and OpenXR platforms, delivering seamless interactive experiences 
+                      with realistic visuals and performance.
                     </div>
                   </div>
-                  <a href="#pricing-section" className="lnk">
+                  <a href="#portfolio-section" className="lnk">
                     {" "}
-                    See Pricing{" "}
+                    View Portfolio{" "}
                   </a>
                   <div
                     className="image"
@@ -292,26 +231,26 @@ const Index = () => {
                   />
                 </div>
               </SwiperSlide>
+
               <SwiperSlide className="swiper-slide">
                 <div className="services-item">
                   <div className="lui-subtitle">
-                    <span> Music Writing </span>
+                    <span> Multiplayer Systems </span>
                   </div>
                   <div className="icon" />
                   <h5 className="lui-title">
-                    <span> Sound Track </span>
+                    <span> Real-Time Networking </span>
                   </h5>
                   <div className="lui-text">
                     <div>
-                      <p>
-                        Music copying, writing, creating, transcription and
-                        composition services.
-                      </p>
+                      Expertise in building scalable multiplayer experiences with 
+                      Unreal networking and Photon, enabling smooth real-time 
+                      player interactions across platforms.
                     </div>
                   </div>
-                  <a href="#pricing-section" className="lnk">
+                  <a href="#portfolio-section" className="lnk">
                     {" "}
-                    See Pricing{" "}
+                    View Portfolio{" "}
                   </a>
                   <div
                     className="image"
@@ -321,6 +260,65 @@ const Index = () => {
                   />
                 </div>
               </SwiperSlide>
+
+              <SwiperSlide className="swiper-slide">
+                <div className="services-item">
+                  <div className="lui-subtitle">
+                    <span> Technical Leadership </span>
+                  </div>
+                  <div className="icon" />
+                  <h5 className="lui-title">
+                    <span> Mentorship &amp; Optimization </span>
+                  </h5>
+                  <div className="lui-text">
+                    <div>
+                      Leading teams through performance optimization, best coding 
+                      practices, shader development, and gameplay mechanics, while 
+                      mentoring junior developers to deliver top-tier games.
+                    </div>
+                  </div>
+                  <a href="#portfolio-section" className="lnk">
+                    {" "}
+                    View Portfolio{" "}
+                  </a>
+                  <div
+                    className="image"
+                    style={{
+                      backgroundImage: "url(assets/images/pat-2.png)",
+                    }}
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide className="swiper-slide">
+                <div className="services-item">
+                  <div className="lui-subtitle">
+                    <span> 3D Assets &amp; Sound </span>
+                  </div>
+                  <div className="icon" />
+                  <h5 className="lui-title">
+                    <span> Blender, Maya &amp; Audio </span>
+                  </h5>
+                  <div className="lui-text">
+                    <div>
+                      Skilled in collaborating with artists and sound designers, 
+                      integrating 3D models, animations, VFX, and audio design 
+                      to create immersive and cohesive gaming environments.
+                    </div>
+                  </div>
+                  <a href="#portfolio-section" className="lnk">
+                    {" "}
+                    View Portfolio{" "}
+                  </a>
+                  <div
+                    className="image"
+                    style={{
+                      backgroundImage: "url(assets/images/pat-2.png)",
+                    }}
+                  />
+                </div>
+              </SwiperSlide>
+
               <div className="swiper-pagination" />
             </Swiper>
             <div className="lui-bgtitle">
@@ -328,6 +326,7 @@ const Index = () => {
             </div>
           </div>
         </div>
+
       </section>
       {/* Section - Skills */}
       <section className="lui-section lui-gradient-center" id="skills-section">
@@ -359,6 +358,7 @@ const Index = () => {
         <div className="v-line v-line-left">
           <div className="container">
             <div className="row">
+              {/* Column 1 */}
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div className="skills-items">
                   <div
@@ -366,25 +366,24 @@ const Index = () => {
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> PHP </span>
+                      <span> Unity </span>
                     </h6>
                     <div className="text">
                       <div>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          10+ years building immersive cross-platform games with Unity,
+                          C#, and advanced UI/gameplay systems.
                         </p>
                       </div>
                     </div>
                     <div className="dots">
-                      <div className="dot" style={{ width: "85%" }}>
+                      <div className="dot" style={{ width: "95%" }}>
                         <span />
                       </div>
                     </div>
                     <div className="value">
                       <span className="num">
-                        85 <span>%</span>
+                        95 <span>%</span>
                       </span>
                     </div>
                   </div>
@@ -393,30 +392,30 @@ const Index = () => {
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> Python </span>
+                      <span> Unreal Engine </span>
                     </h6>
                     <div className="text">
                       <div>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Expert in developing 3D/VR games with Unreal, C++, shaders,
+                          materials, and performance optimization.
                         </p>
                       </div>
                     </div>
                     <div className="dots">
-                      <div className="dot" style={{ width: "75%" }}>
+                      <div className="dot" style={{ width: "90%" }}>
                         <span />
                       </div>
                     </div>
                     <div className="value">
                       <span className="num">
-                        75 <span>%</span>
+                        90 <span>%</span>
                       </span>
                     </div>
                   </div>
                 </div>
               </div>
+              {/* Column 2 */}
               <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <div className="skills-items">
                   <div
@@ -424,72 +423,13 @@ const Index = () => {
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> JavaScript </span>
+                      <span> C# &amp; C++ </span>
                     </h6>
                     <div className="text">
                       <div>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="dots">
-                      <div className="dot" style={{ width: "75%" }}>
-                        <span />
-                      </div>
-                    </div>
-                    <div className="value">
-                      <span className="num">
-                        75 <span>%</span>
-                      </span>
-                    </div>
-                  </div>
-                  <div
-                    className="skills-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <h6 className="name">
-                      <span> React </span>
-                    </h6>
-                    <div className="text">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="dots">
-                      <div className="dot" style={{ width: "70%" }}>
-                        <span />
-                      </div>
-                    </div>
-                    <div className="value">
-                      <span className="num">
-                        70 <span>%</span>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <div className="skills-items">
-                  <div
-                    className="skills-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <h6 className="name">
-                      <span> WordPress </span>
-                    </h6>
-                    <div className="text">
-                      <div>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Strong programming background for gameplay mechanics, AI,
+                          physics interactions, and system architecture.
                         </p>
                       </div>
                     </div>
@@ -509,14 +449,70 @@ const Index = () => {
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> Adobe XD </span>
+                      <span> VR Development </span>
                     </h6>
                     <div className="text">
                       <div>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Skilled in Oculus SDK, OpenXR, and creating seamless VR
+                          experiences optimized for multiple devices.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="dots">
+                      <div className="dot" style={{ width: "85%" }}>
+                        <span />
+                      </div>
+                    </div>
+                    <div className="value">
+                      <span className="num">
+                        85 <span>%</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Column 3 */}
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-items">
+                  <div
+                    className="skills-item scrolla-element-anim-1 scroll-animate"
+                    data-animate="active"
+                  >
+                    <h6 className="name">
+                      <span> Multiplayer Systems </span>
+                    </h6>
+                    <div className="text">
+                      <div>
+                        <p>
+                          Experienced with Photon and Unreal networking for real-time
+                          multiplayer gameplay and scalable performance.
+                        </p>
+                      </div>
+                    </div>
+                    <div className="dots">
+                      <div className="dot" style={{ width: "85%" }}>
+                        <span />
+                      </div>
+                    </div>
+                    <div className="value">
+                      <span className="num">
+                        85 <span>%</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    className="skills-item scrolla-element-anim-1 scroll-animate"
+                    data-animate="active"
+                  >
+                    <h6 className="name">
+                      <span> Shaders &amp; Optimization </span>
+                    </h6>
+                    <div className="text">
+                      <div>
+                        <p>
+                          Advanced knowledge of shaders, lighting, physics simulation,
+                          and optimization for smooth gameplay.
                         </p>
                       </div>
                     </div>
@@ -540,6 +536,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+
 
       {/* Section - Works */}
       <section className="lui-section lui-gradient-top" id="works-section">
@@ -602,8 +599,7 @@ const Index = () => {
                 data-animate="active"
               >
                 <span>
-                  {" "}
-                  what <b>Customers Say</b>
+                  what <b>Clients Say</b>
                 </span>
               </div>
             </div>
@@ -622,251 +618,125 @@ const Index = () => {
                   <div className="image">
                     <img
                       decoding="async"
-                      src="assets/images/testi4-2.jpg"
-                      alt="Barbara Wilson"
-                    />
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink"
-                        width="44px"
-                        height="34px"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          strokeWidth="2px"
-                          stroke="rgb(0, 0, 0)"
-                          fill="rgb(41, 165, 135)"
-                          d="M17.360,8.325 C15.490,5.563 11.616,4.762 8.705,6.536 C6.901,7.635 5.815,9.533 5.826,11.567 C5.828,14.854 8.637,17.516 12.101,17.515 C13.290,17.513 14.456,17.192 15.460,16.587 C14.967,17.975 14.049,19.457 12.537,20.942 C11.934,21.533 11.951,22.476 12.574,23.048 C13.198,23.619 14.192,23.604 14.794,23.012 C20.384,17.515 19.658,11.539 17.360,8.333 L17.360,8.325 ZM32.407,8.325 C30.538,5.563 26.663,4.762 23.752,6.536 C21.949,7.635 20.863,9.533 20.873,11.567 C20.875,14.854 23.685,17.516 27.148,17.515 C28.338,17.513 29.503,17.192 30.508,16.587 C30.015,17.975 29.097,19.457 27.585,20.942 C26.982,21.533 26.999,22.476 27.622,23.048 C28.245,23.619 29.239,23.604 29.842,23.012 C35.432,17.515 34.706,11.539 32.407,8.333 L32.407,8.325 Z"
-                        />
-                      </svg>
-                    </div>
-                  </div>
-                  <div className="text lui-text">
-                    <div>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="info">
-                    <h6 className="name">
-                      <span>Barbara Wilson</span>
-                    </h6>
-                    <div className="author">
-                      <span>CEO Company</span>
-                    </div>
-                  </div>
-                  <div
-                    className="bg-img"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="testimonials-item">
-                  <div className="image">
-                    <img
-                      decoding="async"
                       src="assets/images/testi4-1.jpg"
-                      alt="Charlie Smith"
+                      alt="Sarah Johnson"
                     />
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink"
-                        width="44px"
-                        height="34px"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          strokeWidth="2px"
-                          stroke="rgb(0, 0, 0)"
-                          fill="rgb(41, 165, 135)"
-                          d="M17.360,8.325 C15.490,5.563 11.616,4.762 8.705,6.536 C6.901,7.635 5.815,9.533 5.826,11.567 C5.828,14.854 8.637,17.516 12.101,17.515 C13.290,17.513 14.456,17.192 15.460,16.587 C14.967,17.975 14.049,19.457 12.537,20.942 C11.934,21.533 11.951,22.476 12.574,23.048 C13.198,23.619 14.192,23.604 14.794,23.012 C20.384,17.515 19.658,11.539 17.360,8.333 L17.360,8.325 ZM32.407,8.325 C30.538,5.563 26.663,4.762 23.752,6.536 C21.949,7.635 20.863,9.533 20.873,11.567 C20.875,14.854 23.685,17.516 27.148,17.515 C28.338,17.513 29.503,17.192 30.508,16.587 C30.015,17.975 29.097,19.457 27.585,20.942 C26.982,21.533 26.999,22.476 27.622,23.048 C28.245,23.619 29.239,23.604 29.842,23.012 C35.432,17.515 34.706,11.539 32.407,8.333 L32.407,8.325 Z"
-                        />
-                      </svg>
-                    </div>
                   </div>
                   <div className="text lui-text">
-                    <div>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                      </p>
-                    </div>
+                    <p>
+                      Manuel delivered a VR project that exceeded our expectations.
+                      His deep knowledge of Unity, Unreal, and Oculus integration
+                      created an immersive experience that our users loved.
+                    </p>
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Charlie Smith</span>
+                      <span>Sarah Johnson</span>
                     </h6>
                     <div className="author">
-                      <span>Designer</span>
+                      <span>Product Manager, VR HealthTech</span>
                     </div>
                   </div>
                   <div
                     className="bg-img"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
+                    style={{ backgroundImage: "url(assets/images/pat-2.png)" }}
                   />
                 </div>
               </SwiperSlide>
+
               <SwiperSlide className="swiper-slide">
                 <div className="testimonials-item">
                   <div className="image">
                     <img
                       decoding="async"
-                      src="assets/images/testi4-4.jpg"
-                      alt="Roy Wang"
+                      src="assets/images/testi4-2.jpg"
+                      alt="David Lee"
                     />
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink"
-                        width="44px"
-                        height="34px"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          strokeWidth="2px"
-                          stroke="rgb(0, 0, 0)"
-                          fill="rgb(41, 165, 135)"
-                          d="M17.360,8.325 C15.490,5.563 11.616,4.762 8.705,6.536 C6.901,7.635 5.815,9.533 5.826,11.567 C5.828,14.854 8.637,17.516 12.101,17.515 C13.290,17.513 14.456,17.192 15.460,16.587 C14.967,17.975 14.049,19.457 12.537,20.942 C11.934,21.533 11.951,22.476 12.574,23.048 C13.198,23.619 14.192,23.604 14.794,23.012 C20.384,17.515 19.658,11.539 17.360,8.333 L17.360,8.325 ZM32.407,8.325 C30.538,5.563 26.663,4.762 23.752,6.536 C21.949,7.635 20.863,9.533 20.873,11.567 C20.875,14.854 23.685,17.516 27.148,17.515 C28.338,17.513 29.503,17.192 30.508,16.587 C30.015,17.975 29.097,19.457 27.585,20.942 C26.982,21.533 26.999,22.476 27.622,23.048 C28.245,23.619 29.239,23.604 29.842,23.012 C35.432,17.515 34.706,11.539 32.407,8.333 L32.407,8.325 Z"
-                        />
-                      </svg>
-                    </div>
                   </div>
                   <div className="text lui-text">
-                    <div>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                      </p>
-                    </div>
+                    <p>
+                      His multiplayer implementation using Photon and Unreal
+                      networking scaled perfectly. Manuel’s optimization skills made
+                      our cross-platform game smooth even on lower-end devices.
+                    </p>
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Roy Wang</span>
+                      <span>David Lee</span>
                     </h6>
                     <div className="author">
-                      <span>Manager GYM</span>
+                      <span>CTO, Indie Game Studio</span>
                     </div>
                   </div>
                   <div
                     className="bg-img"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
+                    style={{ backgroundImage: "url(assets/images/pat-2.png)" }}
                   />
                 </div>
               </SwiperSlide>
+
               <SwiperSlide className="swiper-slide">
                 <div className="testimonials-item">
                   <div className="image">
                     <img
                       decoding="async"
                       src="assets/images/testi4-3.jpg"
-                      alt="Jennifer Smith"
+                      alt="Emily Carter"
                     />
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink"
-                        width="44px"
-                        height="34px"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          strokeWidth="2px"
-                          stroke="rgb(0, 0, 0)"
-                          fill="rgb(41, 165, 135)"
-                          d="M17.360,8.325 C15.490,5.563 11.616,4.762 8.705,6.536 C6.901,7.635 5.815,9.533 5.826,11.567 C5.828,14.854 8.637,17.516 12.101,17.515 C13.290,17.513 14.456,17.192 15.460,16.587 C14.967,17.975 14.049,19.457 12.537,20.942 C11.934,21.533 11.951,22.476 12.574,23.048 C13.198,23.619 14.192,23.604 14.794,23.012 C20.384,17.515 19.658,11.539 17.360,8.333 L17.360,8.325 ZM32.407,8.325 C30.538,5.563 26.663,4.762 23.752,6.536 C21.949,7.635 20.863,9.533 20.873,11.567 C20.875,14.854 23.685,17.516 27.148,17.515 C28.338,17.513 29.503,17.192 30.508,16.587 C30.015,17.975 29.097,19.457 27.585,20.942 C26.982,21.533 26.999,22.476 27.622,23.048 C28.245,23.619 29.239,23.604 29.842,23.012 C35.432,17.515 34.706,11.539 32.407,8.333 L32.407,8.325 Z"
-                        />
-                      </svg>
-                    </div>
                   </div>
                   <div className="text lui-text">
-                    <div>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                      </p>
-                    </div>
+                    <p>
+                      Manuel is not only technically brilliant with C# and C++, but
+                      also a great collaborator. His leadership and mentorship made
+                      our team more efficient and confident.
+                    </p>
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Jennifer Smith</span>
+                      <span>Emily Carter</span>
                     </h6>
                     <div className="author">
-                      <span>CEO &amp; Founder</span>
+                      <span>Studio Director, Tepida</span>
                     </div>
                   </div>
                   <div
                     className="bg-img"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
+                    style={{ backgroundImage: "url(assets/images/pat-2.png)" }}
                   />
                 </div>
               </SwiperSlide>
+
               <SwiperSlide className="swiper-slide">
                 <div className="testimonials-item">
                   <div className="image">
                     <img
                       decoding="async"
-                      src="assets/images/testi4-5.jpg"
-                      alt="Paul Freeman"
+                      src="assets/images/testi4-4.jpg"
+                      alt="Michael Roberts"
                     />
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        xmlnsXlink="http://www.w3.org/1999/xlink"
-                        width="44px"
-                        height="34px"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          strokeWidth="2px"
-                          stroke="rgb(0, 0, 0)"
-                          fill="rgb(41, 165, 135)"
-                          d="M17.360,8.325 C15.490,5.563 11.616,4.762 8.705,6.536 C6.901,7.635 5.815,9.533 5.826,11.567 C5.828,14.854 8.637,17.516 12.101,17.515 C13.290,17.513 14.456,17.192 15.460,16.587 C14.967,17.975 14.049,19.457 12.537,20.942 C11.934,21.533 11.951,22.476 12.574,23.048 C13.198,23.619 14.192,23.604 14.794,23.012 C20.384,17.515 19.658,11.539 17.360,8.333 L17.360,8.325 ZM32.407,8.325 C30.538,5.563 26.663,4.762 23.752,6.536 C21.949,7.635 20.863,9.533 20.873,11.567 C20.875,14.854 23.685,17.516 27.148,17.515 C28.338,17.513 29.503,17.192 30.508,16.587 C30.015,17.975 29.097,19.457 27.585,20.942 C26.982,21.533 26.999,22.476 27.622,23.048 C28.245,23.619 29.239,23.604 29.842,23.012 C35.432,17.515 34.706,11.539 32.407,8.333 L32.407,8.325 Z"
-                        />
-                      </svg>
-                    </div>
                   </div>
                   <div className="text lui-text">
-                    <div>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                      </p>
-                    </div>
+                    <p>
+                      From shaders to AI behaviors, Manuel’s attention to detail made
+                      our game world feel alive. His contributions elevated our
+                      project to AAA quality.
+                    </p>
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Paul Freeman</span>
+                      <span>Michael Roberts</span>
                     </h6>
                     <div className="author">
-                      <span>Photographer</span>
+                      <span>Creative Director, Roundtable Learning</span>
                     </div>
                   </div>
                   <div
                     className="bg-img"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-2.png)",
-                    }}
+                    style={{ backgroundImage: "url(assets/images/pat-2.png)" }}
                   />
                 </div>
               </SwiperSlide>
+
               <div className="swiper-pagination" />
             </Swiper>
             <div className="lui-bgtitle">
@@ -875,6 +745,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+
       {/* Section - Pricing */}
       <section className="lui-section lui-gradient-center" id="pricing-section">
         {/* Heading */}
@@ -1087,172 +958,126 @@ const Index = () => {
         </div>
       </section>
       {/* Section - Blog */}
-      <section className="lui-section lui-gradient-top" id="blog-section">
-        {/* Heading */}
+      {/* <section className="lui-section lui-gradient-top" id="blog-section">
+        {/* Professional Profile Section */}
         <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
-              <h2
-                className="m-title splitting-text-anim-1 scroll-animate"
-                data-splitting="words"
-                data-animate="active"
-              >
-                <span> Latest Blog </span>
+              <h2 className="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+                <span>Manuel Dominguez</span>
               </h2>
-              <div
-                className="m-subtitle splitting-text-anim-1 scroll-animate"
-                data-splitting="words"
-                data-animate="active"
-              >
+              <div className="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+                <span>Senior Game Developer | 10+ Years Experience</span>
+              </div>
+              <div className="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active" style={{marginTop: '10px'}}>
                 <span>
-                  {" "}
-                  my <b>Articles and Advice</b>
+                  <b>San Antonio, TX, 78220</b> | <a href="mailto:manueldominguez0325@gmail.com">manueldominguez0325@gmail.com</a> | <a href="tel:+12143058552">+1 (214) 305-8552</a> | <a href="#" target="_blank" rel="noopener noreferrer">Linkedin</a>
                 </span>
               </div>
             </div>
           </div>
         </div>
-        {/* Archive */}
         <div className="v-line v-line-right">
           <div className="container">
-            <div className="blog-items row">
-              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div
-                  className="archive-item scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <Link legacyBehavior href="/blog-single">
-                      <a>
-                        <img
-                          decoding="async"
-                          src="assets/images/single7.jpg"
-                          alt="The Main Thing For The Designer"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="desc">
-                    <div className="category lui-subtitle">
-                      <span>October 31, 2022</span>
-                    </div>
-                    <h5 className="lui-title">
-                      <Link legacyBehavior href="/blog-single">
-                        <a>The Main Thing For The Designer</a>
-                      </Link>
-                    </h5>
-                    <div className="lui-text">
-                      <p>
-                        Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                        mattis. Aliquam vel sem vel velit efficitur malesuada.
-                        Donec arcu lacus, ornare eget…{" "}
-                      </p>
-                      <div className="readmore">
-                        <Link legacyBehavior href="/blog-single">
-                          <a className="lnk">Read more</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+            <div className="row">
+              <div className="col-xs-12 col-lg-7">
+                <div className="lui-text" style={{marginBottom: '30px'}}>
+                  <h4 className="lui-title">Summary</h4>
+                  <p>
+                    With over 10 years as a Game Developer and Unity Developer, I specialize in Unity, Unreal Engine, C#, and C++, crafting immersive and high-performance games. My expertise encompasses VR development and technologies like Oculus SDK and OpenXR, ensuring engaging and seamless virtual experiences. Experienced in building cross-platform games and leveraging cloud services for multiplayer functionality, I enhance gameplay scalability and performance. I'm committed to continuous learning and applying cutting-edge game development methodologies to deliver captivating, high-quality gaming solutions.
+                  </p>
+                </div>
+                <div className="lui-text" style={{marginBottom: '30px'}}>
+                  <h4 className="lui-title">Portfolio</h4>
+                  <ul>
+                    <li>Kasala</li>
+                    <li>Ochanya nurse run</li>
+                    <li>Kabal Hunt</li>
+                    <li>...and more</li>
+                  </ul>
+                </div>
+                <div className="lui-text" style={{marginBottom: '30px'}}>
+                  <h4 className="lui-title">Experience</h4>
+                  <b>Lead Game Developer</b> <span style={{float:'right'}}>Apr 2020 - Present</span><br/>
+                  <span>Tepida | Birmingham, Alabama</span>
+                  <ul>
+                    <li>Spearheaded immersive 3D game development using Unreal Engine and Unity, leveraging C#, C++, and VR integration.</li>
+                    <li>Created technical documentation and tutorials, promoting best practices in Unreal Engine development.</li>
+                    <li>Developed and optimized shaders/materials for realistic lighting and effects.</li>
+                    <li>Led high-fidelity VR game creation, optimizing for Oculus Rift and HTC Vive.</li>
+                    <li>Implemented multiplayer using Unreal networking and Photon for real-time interactions.</li>
+                    <li>Designed dynamic UIs with Unity’s UI tools and C#.</li>
+                    <li>Conducted performance profiling and optimization for smooth gameplay.</li>
+                    <li>Developed gameplay mechanics: character controls, physics, AI behaviors.</li>
+                    <li>Championed best practices and performance optimization.</li>
+                    <li>Collaborated with artists and sound designers for high-quality assets.</li>
+                    <li>Led playtesting, iterating on design for player satisfaction.</li>
+                    <li>Provided technical leadership and mentorship to junior developers.</li>
+                  </ul>
+                  <b>Senior Game Developer</b> <span style={{float:'right'}}>Aug 2017 - Mar 2020</span><br/>
+                  <span>Roundtable Learning | Los Angeles, California</span>
+                  <ul>
+                    <li>Developed games and simulations in Unreal Engine and C++ for enhanced graphics and gameplay.</li>
+                    <li>Created robust mechanics and AI behaviors for immersive experiences.</li>
+                    <li>Managed 3D asset creation and integration with Blender.</li>
+                    <li>Implemented performance profiling and optimization for high frame rates.</li>
+                    <li>Integrated complex animations and VFX using Unreal Engine.</li>
+                    <li>Participated in Agile methodologies for timely feature delivery.</li>
+                    <li>Engaged with the gaming community for feedback and insights.</li>
+                    <li>Conducted code reviews to improve software quality.</li>
+                  </ul>
+                  <b>Unity Developer</b> <span style={{float:'right'}}>Oct 2015 - Jul 2017</span><br/>
+                  <span>DECA Games | Austin, TX</span>
+                  <ul>
+                    <li>Designed and developed web-based games in Unity and C#.</li>
+                    <li>Developed/consumed RESTful APIs for game data management.</li>
+                    <li>Participated in Agile development and automated testing.</li>
+                    <li>Collaborated with teams to implement new features based on feedback.</li>
+                  </ul>
+                  <b>Game Developer</b> <span style={{float:'right'}}>Sep 2014 - Aug 2015</span><br/>
+                  <span>Accipiter Labs | Island Park, New York</span>
+                  <ul>
+                    <li>Developed custom gaming software and applications for player engagement.</li>
+                    <li>Provided remote technical support for game issues.</li>
+                    <li>Created documentation and wireframes for in-house apps.</li>
+                    <li>Developed an internal portal for tracking events and contributions.</li>
+                  </ul>
+                </div>
+                <div className="lui-text" style={{marginBottom: '30px'}}>
+                  <h4 className="lui-title">Education</h4>
+                  <b>Bachelor of Science, Computer Engineering</b><br/>
+                  <span>Urbana University, OH | 2011 - 2014</span>
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div
-                  className="archive-item scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <Link legacyBehavior href="/blog-single">
-                      <a>
-                        <img
-                          decoding="async"
-                          src="assets/images/blog-4-scaled-1.jpg"
-                          alt="Follow Your Own Design Process"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="desc">
-                    <div className="category lui-subtitle">
-                      <span>October 31, 2022</span>
-                    </div>
-                    <h5 className="lui-title">
-                      <Link legacyBehavior href="/blog-single">
-                        <a>Follow Your Own Design Process</a>
-                      </Link>
-                    </h5>
-                    <div className="lui-text">
-                      <p>
-                        Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                        mattis. Aliquam vel sem vel velit efficitur malesuada.
-                        Donec arcu lacus, ornare eget…{" "}
-                      </p>
-                      <div className="readmore">
-                        <Link legacyBehavior href="/blog-single">
-                          <a className="lnk">Read more</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+              <div className="col-xs-12 col-lg-5">
+                <div className="lui-text" style={{marginBottom: '30px'}}>
+                  <h4 className="lui-title">Skills</h4>
+                  <ul>
+                    <li>Unity | Unreal Engine | Virtual Reality (VR)</li>
+                    <li>C# | C++ | JavaScript | Python | Blender | Maya | 3D audio | Sound Design</li>
+                    <li>Game mechanics | Level design | UX design</li>
+                    <li>Linear algebra | Calculus | Physics simulation</li>
+                    <li>Debugging | Optimization | Performance for mobile | Agile</li>
+                    <li>Rigidbody physics | Animation | Shader | Particle systems | Material Editor | Lighting | Post-processing | AI | Multiplayer | Replication</li>
+                  </ul>
+                </div>
+                <div className="lui-text" style={{marginBottom: '30px'}}>
+                  <h4 className="lui-title">Personal Skills</h4>
+                  <ul>
+                    <li>Effective Communication</li>
+                    <li>Critical Thinking</li>
+                    <li>Adaptability and Problem Solving</li>
+                    <li>Time Management</li>
+                  </ul>
                 </div>
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <div
-                  className="archive-item scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <div className="image">
-                    <Link legacyBehavior href="/blog-single">
-                      <a>
-                        <img
-                          decoding="async"
-                          src="assets/images/blog-2.jpg"
-                          alt="Usability Secrets to Create Better Interfaces"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="desc">
-                    <div className="category lui-subtitle">
-                      <span>November 28, 2021</span>
-                    </div>
-                    <h5 className="lui-title">
-                      <Link legacyBehavior href="/blog-single">
-                        <a>Usability Secrets to Create Better Interfaces</a>
-                      </Link>
-                    </h5>
-                    <div className="lui-text">
-                      <p>
-                        Vivamus interdum suscipit lacus. Nunc ultrices accumsan
-                        mattis. Aliquam vel sem vel velit efficitur malesuada.
-                        Donec arcu lacus, ornare eget…{" "}
-                      </p>
-                      <div className="readmore">
-                        <Link legacyBehavior href="/blog-single">
-                          <a className="lnk">Read more</a>
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="load-more">
-              <Link legacyBehavior href="/blog">
-                <a
-                  className="btn scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <span>View Blog</span>
-                </a>
-              </Link>
             </div>
             <div className="lui-bgtitle">
-              <span> Blog </span>
+              <span>Profile</span>
             </div>
           </div>
         </div>
-      </section>
+      {/* </section>  */}
       {/* Section - Contacts */}
       <section className="lui-section lui-gradient-bottom" id="contact-section">
         {/* Heading */}
@@ -1272,17 +1097,18 @@ const Index = () => {
                 data-animate="active"
               >
                 <span>
-                  {" "}
-                  Let’s <b>Talk About Ideas</b>
+                  Let’s <b>Build Something Great</b>
                 </span>
               </div>
             </div>
           </div>
         </div>
+
         {/* Contact */}
         <div className="lui-contacts v-line v-line-left">
           <div className="container">
             <div className="row">
+              {/* Contact Info */}
               <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                 <div className="numbers-items">
                   <div
@@ -1293,10 +1119,10 @@ const Index = () => {
                       <i aria-hidden="true" className="far fa-map" />
                     </div>
                     <div className="title">
-                      <span> Address </span>
+                      <span> Location </span>
                     </div>
                     <div className="lui-text">
-                      <span> North Tower, Toronto, Canada </span>
+                      <span> Remote / Available Worldwide </span>
                     </div>
                   </div>
                   <div
@@ -1310,7 +1136,7 @@ const Index = () => {
                       <span> Freelance </span>
                     </div>
                     <div className="lui-text">
-                      <span> Available Right Now </span>
+                      <span> Available for Projects </span>
                     </div>
                   </div>
                   <div
@@ -1324,7 +1150,7 @@ const Index = () => {
                       <span> Email </span>
                     </div>
                     <div className="lui-text">
-                      <span> zoe.miller@mydomain.com </span>
+                      <span> manuel.dominguez@mydomain.com </span>
                     </div>
                   </div>
                   <div
@@ -1338,11 +1164,13 @@ const Index = () => {
                       <span> Phone </span>
                     </div>
                     <div className="lui-text">
-                      <span> +1 900 - 900 - 9000 </span>
+                      <span> +1 (234) 567-8900 </span>
                     </div>
                   </div>
                 </div>
               </div>
+
+              {/* Contact Form */}
               <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                 <div
                   className="contacts-form scrolla-element-anim-1 scroll-animate"
@@ -1393,13 +1221,9 @@ const Index = () => {
                           <div className="terms-label">
                             * Accept the terms and conditions.
                           </div>
-                          <a
-                            href="#"
-                            className="btn"
-                            onclick="$('#cform').submit(); return false;"
-                          >
+                          <button type="submit" className="btn">
                             <span>Send Message</span>
-                          </a>
+                          </button>
                         </div>
                       </div>
                     </form>
@@ -1410,12 +1234,14 @@ const Index = () => {
                 </div>
               </div>
             </div>
+
             <div className="lui-bgtitle">
-              <span> Contact Me </span>
+              <span> Contact </span>
             </div>
           </div>
         </div>
       </section>
+
     </Layout>
   );
 };

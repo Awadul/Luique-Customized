@@ -3,54 +3,46 @@ import { useState } from "react";
 const educationData = [
   {
     id: 1,
-    title: "Backend Programming",
-    academy: "CoderHouse Course",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2014",
-    endYear: "2016",
-  },
-  {
-    id: 2,
-    title: "Faculty of Design",
-    academy: "Lviv National Academy of Arts",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2012",
+    title: "Computer Science (Game Development Track)",
+    academy: "University of Technology",
+    dec: "Focused on software engineering, computer graphics, and game development with hands-on projects in Unity and Unreal Engine.",
+    startYear: "2010",
     endYear: "2014",
   },
   {
-    id: 3,
-    title: "High School",
-    academy: "IT Future",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2010",
-    endYear: "2012",
+    id: 2,
+    title: "Advanced VR & AR Development",
+    academy: "Oculus / Online Certification",
+    dec: "Specialized training in VR/AR using Oculus SDK and OpenXR to build immersive interactive experiences.",
+    startYear: "2016",
+    endYear: "2017",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "UI Head & Manager",
-    company: "Soft Tech Inc.",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Senior Game Developer",
+    company: "Soft Tech Studios",
+    dec: "Led development of cross-platform games in Unity and Unreal Engine. Built scalable multiplayer systems leveraging cloud services and optimized performance across platforms.",
     startYear: "2020",
     endYear: false,
   },
   {
     id: 2,
-    title: "UI / UX Specialist",
-    company: "Kana Design Studio",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2018",
+    title: "VR Game Developer",
+    company: "Immersion Labs",
+    dec: "Developed VR experiences for Oculus devices using Unity, C#, and OpenXR. Ensured seamless performance and user engagement in immersive environments.",
+    startYear: "2017",
     endYear: "2020",
   },
   {
     id: 3,
-    title: "Plugins Developer",
-    company: "Fiverr.com",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2016",
-    endYear: "2018",
+    title: "Game Developer",
+    company: "Freelance / Fiverr",
+    dec: "Created plugins, indie games, and custom gameplay mechanics for clients worldwide. Delivered high-quality, performance-driven solutions using Unity and C++.",
+    startYear: "2014",
+    endYear: "2017",
   },
 ];
 
@@ -87,6 +79,7 @@ const Resume = () => {
       <div className="v-line v-line-left">
         <div className="container">
           <div className="row">
+            {/* Education */}
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
               <h5
                 className="history-title scrolla-element-anim-1 scroll-animate"
@@ -135,6 +128,8 @@ const Resume = () => {
                 ))}
               </div>
             </div>
+
+            {/* Experience */}
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
               <h5
                 className="history-title scrolla-element-anim-1 scroll-animate"
