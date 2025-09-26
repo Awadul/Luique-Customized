@@ -153,7 +153,7 @@ const Header = () => {
                                 Testimonials
                               </a>
                             </li>
-                            <li className="menu-item">
+                            {/* <li className="menu-item">
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
@@ -162,8 +162,8 @@ const Header = () => {
                               >
                                 Pricing
                               </a>
-                            </li>
-                            <li className="menu-item">
+                            </li> */}
+                            {/* <li className="menu-item">
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
@@ -172,7 +172,7 @@ const Header = () => {
                               >
                                 Blog
                               </a>
-                            </li>
+                            </li> */}
                             <li className="menu-item">
                               <a
                                 className="splitting-text-anim-2"
