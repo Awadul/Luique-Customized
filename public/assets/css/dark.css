@@ -217,11 +217,11 @@ body.dark-skin {
 * Header
 **/
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) { */
 	.dark-skin .header.sticky {
 		background: #1d222a;
 	}
-}
+/* } */
 
 .dark-skin .header.sticky .navbar.default:before {
 	background: #1d222a;
