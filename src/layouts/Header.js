@@ -3,14 +3,13 @@ import { Fragment, useEffect, useState } from "react";
 import { linkClick, toggleMenu } from "../utils";
 
 const Header = () => {
-  const [day, setDay] = useState(false); // Default to dark theme (black)
+  const [day, setDay] = useState(true);
   useEffect(() => {
     if (day) {
       document.querySelector("body").classList.add("light-skin");
       document.querySelector("body").classList.remove("dark-skin");
     } else {
       document.querySelector("body").classList.add("dark-skin");
-      document.querySelector("body").classList.remove("light-skin");
     }
   }, [day]);
 
@@ -148,8 +147,8 @@ const Header = () => {
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
-                                href="/#testimonials-section"
-                                onClick={() => linkClick()}
+                                href="/#testimonials-sec
+                                onClick={() => linkClick()}tion"
                               >
                                 Testimonials
                               </a>
