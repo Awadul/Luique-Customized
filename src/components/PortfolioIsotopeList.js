@@ -114,9 +114,9 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                {/* <Link legacyBehavior href="/work-single">
                   <a className="lnk">See project</a>
-                </Link>
+                </Link> */}
               </div>
               <div
                 className="bg-img"
@@ -158,9 +158,9 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                {/* <Link legacyBehavior href="/work-single">
                   <a className="lnk">See project</a>
-                </Link>
+                </Link> */}
               </div>
               <div
                 className="bg-img"
@@ -202,9 +202,9 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                {/* <Link legacyBehavior href="/work-single">
                   <a className="lnk">See project</a>
-                </Link>
+                </Link> */}
               </div>
               <div
                 className="bg-img"
@@ -246,9 +246,9 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                {/* <Link legacyBehavior href="/work-single">
                   <a className="lnk">See project</a>
-                </Link>
+                </Link> */}
               </div>
               <div
                 className="bg-img"
@@ -290,9 +290,9 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                {/* <Link legacyBehavior href="/work-single">
                   <a className="lnk">See project</a>
-                </Link>
+                </Link> */}
               </div>
               <div
                 className="bg-img"
@@ -334,9 +334,9 @@ const PortfolioIsotopeList = ({ noViewMore }) => {
                     do eiusmod tempor incididunt ut labore et dolore.
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
+                {/* <Link legacyBehavior href="/work-single">
                   <a className="lnk">See project</a>
-                </Link>
+                </Link> */}
               </div>
               <div
                 className="bg-img"

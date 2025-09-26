@@ -68,25 +68,28 @@ const PortfolioIsotope = ({ noViewMore }) => {
               <div className="works-item">
                 <div className="image">
                   <div className="img">
-                    <Link href={project.href} legacyBehavior>
+                    {/* <Link href={project.href} legacyBehavior>
                       <a>
                         <img src={project.image} alt={project.title} />
                         <span className="overlay" />
                       </a>
-                    </Link>
+                    </Link> */}
+                        <img src={project.image} alt={project.title} />
+                        <span className="overlay" />
                   </div>
                 </div>
                 <div className="desc">
                   <span className="category">{project.categories.map(c => c.replace("sorting-", "")).join(", ")}</span>
                   <h5 className="name">
-                    <Link href={project.href} legacyBehavior>
+                    {/* <Link href={project.href} legacyBehavior>
                       <a>{project.title}</a>
-                    </Link>
+                    </Link> */}
+                    {project.title}
                   </h5>
                   <p>{project.description}</p>
-                  <Link href={project.href} legacyBehavior>
+                  {/* <Link href={project.href} legacyBehavior>
                     <a className="lnk">See project</a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

@@ -188,7 +188,7 @@ const Header = () => {
                                 pageToggle ? "opened" : "closed"
                               }`}
                             >
-                              <a
+                              {/* <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
                                 onClick={() => setPageToggle(!pageToggle)}
@@ -254,7 +254,7 @@ const Header = () => {
                                     </a>
                                   </Link>
                                 </li>
-                              </ul>
+                              </ul> */}
                             </li>
                           </ul>
                         </div>
