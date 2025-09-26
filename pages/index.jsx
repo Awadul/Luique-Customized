@@ -959,121 +959,167 @@ const Index = () => {
       </section>
       {/* Section - Blog */}
       {/* <section className="lui-section lui-gradient-top" id="blog-section">
-        {/* Professional Profile Section */}
+        {/* Heading */}
         <div className="lui-heading">
           <div className="container">
             <div className="m-titles align-center">
-              <h2 className="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
-                <span>Manuel Dominguez</span>
+              <h2
+                className="m-title splitting-text-anim-1 scroll-animate"
+                data-splitting="words"
+                data-animate="active"
+              >
+                <span> Latest Blog </span>
               </h2>
-              <div className="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
-                <span>Senior Game Developer | 10+ Years Experience</span>
-              </div>
-              <div className="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active" style={{marginTop: '10px'}}>
+              <div
+                className="m-subtitle splitting-text-anim-1 scroll-animate"
+                data-splitting="words"
+                data-animate="active"
+              >
                 <span>
-                  <b>San Antonio, TX, 78220</b> | <a href="mailto:manueldominguez0325@gmail.com">manueldominguez0325@gmail.com</a> | <a href="tel:+12143058552">+1 (214) 305-8552</a> | <a href="#" target="_blank" rel="noopener noreferrer">Linkedin</a>
+                  {" "}
+                  my <b>Articles and Advice</b>
                 </span>
               </div>
             </div>
           </div>
         </div>
+        {/* Archive */}
         <div className="v-line v-line-right">
           <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-lg-7">
-                <div className="lui-text" style={{marginBottom: '30px'}}>
-                  <h4 className="lui-title">Summary</h4>
-                  <p>
-                    With over 10 years as a Game Developer and Unity Developer, I specialize in Unity, Unreal Engine, C#, and C++, crafting immersive and high-performance games. My expertise encompasses VR development and technologies like Oculus SDK and OpenXR, ensuring engaging and seamless virtual experiences. Experienced in building cross-platform games and leveraging cloud services for multiplayer functionality, I enhance gameplay scalability and performance. I'm committed to continuous learning and applying cutting-edge game development methodologies to deliver captivating, high-quality gaming solutions.
-                  </p>
-                </div>
-                <div className="lui-text" style={{marginBottom: '30px'}}>
-                  <h4 className="lui-title">Portfolio</h4>
-                  <ul>
-                    <li>Kasala</li>
-                    <li>Ochanya nurse run</li>
-                    <li>Kabal Hunt</li>
-                    <li>...and more</li>
-                  </ul>
-                </div>
-                <div className="lui-text" style={{marginBottom: '30px'}}>
-                  <h4 className="lui-title">Experience</h4>
-                  <b>Lead Game Developer</b> <span style={{float:'right'}}>Apr 2020 - Present</span><br/>
-                  <span>Tepida | Birmingham, Alabama</span>
-                  <ul>
-                    <li>Spearheaded immersive 3D game development using Unreal Engine and Unity, leveraging C#, C++, and VR integration.</li>
-                    <li>Created technical documentation and tutorials, promoting best practices in Unreal Engine development.</li>
-                    <li>Developed and optimized shaders/materials for realistic lighting and effects.</li>
-                    <li>Led high-fidelity VR game creation, optimizing for Oculus Rift and HTC Vive.</li>
-                    <li>Implemented multiplayer using Unreal networking and Photon for real-time interactions.</li>
-                    <li>Designed dynamic UIs with Unity’s UI tools and C#.</li>
-                    <li>Conducted performance profiling and optimization for smooth gameplay.</li>
-                    <li>Developed gameplay mechanics: character controls, physics, AI behaviors.</li>
-                    <li>Championed best practices and performance optimization.</li>
-                    <li>Collaborated with artists and sound designers for high-quality assets.</li>
-                    <li>Led playtesting, iterating on design for player satisfaction.</li>
-                    <li>Provided technical leadership and mentorship to junior developers.</li>
-                  </ul>
-                  <b>Senior Game Developer</b> <span style={{float:'right'}}>Aug 2017 - Mar 2020</span><br/>
-                  <span>Roundtable Learning | Los Angeles, California</span>
-                  <ul>
-                    <li>Developed games and simulations in Unreal Engine and C++ for enhanced graphics and gameplay.</li>
-                    <li>Created robust mechanics and AI behaviors for immersive experiences.</li>
-                    <li>Managed 3D asset creation and integration with Blender.</li>
-                    <li>Implemented performance profiling and optimization for high frame rates.</li>
-                    <li>Integrated complex animations and VFX using Unreal Engine.</li>
-                    <li>Participated in Agile methodologies for timely feature delivery.</li>
-                    <li>Engaged with the gaming community for feedback and insights.</li>
-                    <li>Conducted code reviews to improve software quality.</li>
-                  </ul>
-                  <b>Unity Developer</b> <span style={{float:'right'}}>Oct 2015 - Jul 2017</span><br/>
-                  <span>DECA Games | Austin, TX</span>
-                  <ul>
-                    <li>Designed and developed web-based games in Unity and C#.</li>
-                    <li>Developed/consumed RESTful APIs for game data management.</li>
-                    <li>Participated in Agile development and automated testing.</li>
-                    <li>Collaborated with teams to implement new features based on feedback.</li>
-                  </ul>
-                  <b>Game Developer</b> <span style={{float:'right'}}>Sep 2014 - Aug 2015</span><br/>
-                  <span>Accipiter Labs | Island Park, New York</span>
-                  <ul>
-                    <li>Developed custom gaming software and applications for player engagement.</li>
-                    <li>Provided remote technical support for game issues.</li>
-                    <li>Created documentation and wireframes for in-house apps.</li>
-                    <li>Developed an internal portal for tracking events and contributions.</li>
-                  </ul>
-                </div>
-                <div className="lui-text" style={{marginBottom: '30px'}}>
-                  <h4 className="lui-title">Education</h4>
-                  <b>Bachelor of Science, Computer Engineering</b><br/>
-                  <span>Urbana University, OH | 2011 - 2014</span>
+            <div className="blog-items row">
+              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div
+                  className="archive-item scrolla-element-anim-1 scroll-animate"
+                  data-animate="active"
+                >
+                  <div className="image">
+                    <Link legacyBehavior href="/blog-single">
+                      <a>
+                        <img
+                          decoding="async"
+                          src="assets/images/single7.jpg"
+                          alt="The Main Thing For The Designer"
+                        />
+                      </a>
+                    </Link>
+                  </div>
+                  <div className="desc">
+                    <div className="category lui-subtitle">
+                      <span>October 31, 2022</span>
+                    </div>
+                    <h5 className="lui-title">
+                      <Link legacyBehavior href="/blog-single">
+                        <a>The Main Thing For The Designer</a>
+                      </Link>
+                    </h5>
+                    <div className="lui-text">
+                      <p>
+                        Vivamus interdum suscipit lacus. Nunc ultrices accumsan
+                        mattis. Aliquam vel sem vel velit efficitur malesuada.
+                        Donec arcu lacus, ornare eget…{" "}
+                      </p>
+                      <div className="readmore">
+                        <Link legacyBehavior href="/blog-single">
+                          <a className="lnk">Read more</a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="col-xs-12 col-lg-5">
-                <div className="lui-text" style={{marginBottom: '30px'}}>
-                  <h4 className="lui-title">Skills</h4>
-                  <ul>
-                    <li>Unity | Unreal Engine | Virtual Reality (VR)</li>
-                    <li>C# | C++ | JavaScript | Python | Blender | Maya | 3D audio | Sound Design</li>
-                    <li>Game mechanics | Level design | UX design</li>
-                    <li>Linear algebra | Calculus | Physics simulation</li>
-                    <li>Debugging | Optimization | Performance for mobile | Agile</li>
-                    <li>Rigidbody physics | Animation | Shader | Particle systems | Material Editor | Lighting | Post-processing | AI | Multiplayer | Replication</li>
-                  </ul>
+              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div
+                  className="archive-item scrolla-element-anim-1 scroll-animate"
+                  data-animate="active"
+                >
+                  <div className="image">
+                    <Link legacyBehavior href="/blog-single">
+                      <a>
+                        <img
+                          decoding="async"
+                          src="assets/images/blog-4-scaled-1.jpg"
+                          alt="Follow Your Own Design Process"
+                        />
+                      </a>
+                    </Link>
+                  </div>
+                  <div className="desc">
+                    <div className="category lui-subtitle">
+                      <span>October 31, 2022</span>
+                    </div>
+                    <h5 className="lui-title">
+                      <Link legacyBehavior href="/blog-single">
+                        <a>Follow Your Own Design Process</a>
+                      </Link>
+                    </h5>
+                    <div className="lui-text">
+                      <p>
+                        Vivamus interdum suscipit lacus. Nunc ultrices accumsan
+                        mattis. Aliquam vel sem vel velit efficitur malesuada.
+                        Donec arcu lacus, ornare eget…{" "}
+                      </p>
+                      <div className="readmore">
+                        <Link legacyBehavior href="/blog-single">
+                          <a className="lnk">Read more</a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="lui-text" style={{marginBottom: '30px'}}>
-                  <h4 className="lui-title">Personal Skills</h4>
-                  <ul>
-                    <li>Effective Communication</li>
-                    <li>Critical Thinking</li>
-                    <li>Adaptability and Problem Solving</li>
-                    <li>Time Management</li>
-                  </ul>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div
+                  className="archive-item scrolla-element-anim-1 scroll-animate"
+                  data-animate="active"
+                >
+                  <div className="image">
+                    <Link legacyBehavior href="/blog-single">
+                      <a>
+                        <img
+                          decoding="async"
+                          src="assets/images/blog-2.jpg"
+                          alt="Usability Secrets to Create Better Interfaces"
+                        />
+                      </a>
+                    </Link>
+                  </div>
+                  <div className="desc">
+                    <div className="category lui-subtitle">
+                      <span>November 28, 2021</span>
+                    </div>
+                    <h5 className="lui-title">
+                      <Link legacyBehavior href="/blog-single">
+                        <a>Usability Secrets to Create Better Interfaces</a>
+                      </Link>
+                    </h5>
+                    <div className="lui-text">
+                      <p>
+                        Vivamus interdum suscipit lacus. Nunc ultrices accumsan
+                        mattis. Aliquam vel sem vel velit efficitur malesuada.
+                        Donec arcu lacus, ornare eget…{" "}
+                      </p>
+                      <div className="readmore">
+                        <Link legacyBehavior href="/blog-single">
+                          <a className="lnk">Read more</a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
+            <div className="load-more">
+              <Link legacyBehavior href="/blog">
+                <a
+                  className="btn scrolla-element-anim-1 scroll-animate"
+                  data-animate="active"
+                >
+                  <span>View Blog</span>
+                </a>
+              </Link>
+            </div>
             <div className="lui-bgtitle">
-              <span>Profile</span>
+              <span> Blog </span>
             </div>
           </div>
         </div>
