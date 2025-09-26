@@ -799,7 +799,7 @@ const Index = () => {
                     className="numbers-item scrolla-element-anim-1 scroll-animate"
                     data-animate="active"
                   >
-                    <div className="icon">
+                    {/* <div className="icon">
                       <i aria-hidden="true" className="far fa-user" />
                     </div>
                     <div className="title">
@@ -808,7 +808,7 @@ const Index = () => {
                     <div className="lui-text">
                       <span> Available for Projects </span>
                     </div>
-                  </div>
+                  </div> */}
                   <div
                     className="numbers-item scrolla-element-anim-1 scroll-animate"
                     data-animate="active"
