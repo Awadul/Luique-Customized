@@ -3,13 +3,14 @@ import { Fragment, useEffect, useState } from "react";
 import { linkClick, toggleMenu } from "../utils";
 
 const Header = () => {
-  const [day, setDay] = useState(true);
+  const [day, setDay] = useState(false); // Default to dark theme (black)
   useEffect(() => {
     if (day) {
       document.querySelector("body").classList.add("light-skin");
       document.querySelector("body").classList.remove("dark-skin");
     } else {
       document.querySelector("body").classList.add("dark-skin");
+      document.querySelector("body").classList.remove("light-skin");
     }
   }, [day]);
 
@@ -147,8 +148,8 @@ const Header = () => {
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
-                                href="/#testimonials-sec
-                                onClick={() => linkClick()}tion"
+                                href="/#testimonials-section"
+                                onClick={() => linkClick()}
                               >
                                 Testimonials
                               </a>
@@ -260,30 +261,30 @@ const Header = () => {
                         </div>
                         {/* social */}
                         <div className="menu-social-links">
-                          <a
+                          {/* <a
                             href="http://dribbble.com"
                             target="blank"
                             className="scrolla-element-anim-1"
                             title="dribbble"
                           >
                             <i className="fab fa-dribbble" />
-                          </a>
+                          </a> */}
                           <a
-                            href="http://twitter.com"
+                            href="https://www.linkedin.com/in/manuel-dominguez-058653384/"
                             target="blank"
                             className="scrolla-element-anim-1"
-                            title="twitter"
+                            title="LinkedIn"
                           >
-                            <i className="fab fa-twitter" />
+                            <i className="fab fa-linkedin" />
                           </a>
-                          <a
+                          {/* <a
                             href="http://behance.com"
                             target="blank"
                             className="scrolla-element-anim-1"
                             title="behance"
                           >
                             <i className="fab fa-behance" />
-                          </a>
+                          </a> */}
                         </div>
                         <div className="v-line-block">
                           <span />

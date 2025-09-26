@@ -47,7 +47,7 @@ const Index = () => {
                   </h1>
                   <div className="label lui-subtitle">
                     {" "}
-                    I am <strong>Game Developer</strong>
+                    I am a<strong>Game Developer</strong>
                   </div>
                 </div>
                 <div className="description">
@@ -58,15 +58,15 @@ const Index = () => {
                     </p>
                   </div>
                   <div className="social-links">
-                    <a target="_blank" rel="nofollow" href="#">
-                      <i aria-hidden="true" className="fab fa-twitter" />
+                    <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/manuel-dominguez-058653384/">
+                      <i aria-hidden="true" className="fab fa-linkedin" />
                     </a>
-                    <a target="_blank" rel="nofollow" href="#">
+                    {/* <a target="_blank" rel="nofollow" href="#">
                       <i aria-hidden="true" className="fab fa-dribbble" />
                     </a>
                     <a target="_blank" rel="nofollow" href="#">
                       <i aria-hidden="true" className="fab fa-behance" />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="bts">
@@ -122,7 +122,7 @@ const Index = () => {
                       </span>
                     </li>
                     <li>
-                      <span className="num">100+</span>
+                      <span className="num">20+</span>
                       <span className="value">
                         Completed <strong>Projects</strong>
                       </span>
@@ -619,7 +619,7 @@ const Index = () => {
                     <img
                       decoding="async"
                       src="assets/images/testi4-1.jpg"
-                      alt="Sarah Johnson"
+                      alt="Eran Orr"
                     />
                   </div>
                   <div className="text lui-text">
@@ -631,7 +631,7 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Sarah Johnson</span>
+                      <span>Eran Orr</span>
                     </h6>
                     <div className="author">
                       <span>Product Manager, VR HealthTech</span>
@@ -650,7 +650,7 @@ const Index = () => {
                     <img
                       decoding="async"
                       src="assets/images/testi4-2.jpg"
-                      alt="David Lee"
+                      alt="Michelle Patriks"
                     />
                   </div>
                   <div className="text lui-text">
@@ -662,7 +662,7 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>David Lee</span>
+                      <span>Michelle Patriks</span>
                     </h6>
                     <div className="author">
                       <span>CTO, Indie Game Studio</span>

@@ -82,7 +82,7 @@ const WorkSingle = () => {
               className="img js-parallax"
               style={{
                 backgroundImage:
-                  "url(https://luique.bslthemes.com/wp-content/uploads/2021/11/single4.jpg)",
+                  "url(https://Manuel.bslthemes.com/wp-content/uploads/2021/11/single4.jpg)",
               }}
             />
           </div>
