@@ -20,14 +20,14 @@ const Footer = () => {
                 </a> */}
               </div>
             </div>
-            <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            {/* <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div
                 className="copyright-text align-center scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
                 © 2025 <strong>Manuel</strong>. All rights reserved
               </div>
-            </div>
+            </div> */}
             <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
               <div
                 className="copyright-text align-right scrolla-element-anim-1 scroll-animate"
