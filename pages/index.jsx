@@ -634,7 +634,7 @@ const Index = () => {
                       <span>Eran Orr</span>
                     </h6>
                     <div className="author">
-                      <span>Product Manager, VR HealthTech</span>
+                      <span>Product Manager, DECA Games</span>
                     </div>
                   </div>
                   <div
@@ -665,7 +665,7 @@ const Index = () => {
                       <span>Michelle Patriks</span>
                     </h6>
                     <div className="author">
-                      <span>CTO, Indie Game Studio</span>
+                      <span>CTO, Roundtable Learning</span>
                     </div>
                   </div>
                   <div
@@ -727,7 +727,7 @@ const Index = () => {
                       <span>Michael Roberts</span>
                     </h6>
                     <div className="author">
-                      <span>Creative Director, Roundtable Learning</span>
+                      <span>Creative Director, Accipiter Labs</span>
                     </div>
                   </div>
                   <div
