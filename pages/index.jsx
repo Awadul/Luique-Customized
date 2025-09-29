@@ -820,7 +820,7 @@ const Index = () => {
                       <span> Email </span>
                     </div>
                     <div className="lui-text">
-                      <span> manuel.dominguez@mydomain.com </span>
+                      <span> manueldominguez0325@gmail.com </span>
                     </div>
                   </div>
                   <div
@@ -834,7 +834,7 @@ const Index = () => {
                       <span> Phone </span>
                     </div>
                     <div className="lui-text">
-                      <span> +1 (234) 567-8900 </span>
+                      <span> +1 (214) 305-8552 </span>
                     </div>
                   </div>
                 </div>
