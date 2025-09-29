@@ -650,7 +650,7 @@ const Index = () => {
                     <img
                       decoding="async"
                       src="assets/images/testi4-2.jpg"
-                      alt="Michelle Patriks"
+                      alt="Hanna Liszniansky"
                     />
                   </div>
                   <div className="text lui-text">
@@ -662,7 +662,7 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Michelle Patriks</span>
+                      <span>Hanna Liszniansky</span>
                     </h6>
                     <div className="author">
                       <span>CTO, Roundtable Learning</span>
@@ -681,7 +681,7 @@ const Index = () => {
                     <img
                       decoding="async"
                       src="assets/images/testi4-3.jpg"
-                      alt="Emily Carter"
+                      alt="Victor Aina"
                     />
                   </div>
                   <div className="text lui-text">
@@ -693,10 +693,12 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Emily Carter</span>
+                      <span>Victor Aina</span>
                     </h6>
                     <div className="author">
-                      <span>Studio Director, Tepida</span>
+                      <span>
+                        GAME PRODUCER, Tepida Games
+                      </span>
                     </div>
                   </div>
                   <div
