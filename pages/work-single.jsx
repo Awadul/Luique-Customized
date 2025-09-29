@@ -80,10 +80,10 @@ const WorkSingle = () => {
           <div className="image">
             <div
               className="img js-parallax"
-              style={{
-                backgroundImage:
-                  // "url(https://Manuel.bslthemes.com/wp-content/uploads/2021/11/single4.jpg)",
-              }}
+              // style={{
+              //   backgroundImage:
+              //     "url(https://Manuel.bslthemes.com/wp-content/uploads/2021/11/single4.jpg)",
+              // }}
             />
           </div>
         </div>
