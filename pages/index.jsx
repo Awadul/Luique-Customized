@@ -619,7 +619,7 @@ const Index = () => {
                     <img
                       decoding="async"
                       src="assets/images/testi4-1.jpg"
-                      alt="Eran Orr"
+                      alt="Ken Go"
                     />
                   </div>
                   <div className="text lui-text">
@@ -631,10 +631,10 @@ const Index = () => {
                   </div>
                   <div className="info">
                     <h6 className="name">
-                      <span>Eran Orr</span>
+                      <span>Ken Go</span>
                     </h6>
                     <div className="author">
-                      <span>Product Manager, DECA Games</span>
+                      <span>CEO, DECA Games</span>
                     </div>
                   </div>
                   <div
