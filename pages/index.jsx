@@ -75,7 +75,7 @@ const Index = () => {
                     href="https://www.artstation.com/manueld03251994"
                     className="btn"
                   >
-                    <span>My ArtStation</span>
+                    <span>My CV</span>
                   </a>
                   <a href="#skills-section" className="btn-lnk">
                     {" "}
