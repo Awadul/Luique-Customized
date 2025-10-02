@@ -72,10 +72,10 @@ const Index = () => {
                 <div className="bts">
                   <a
                     target="_blank"
-                    href="https://drive.google.com/"
+                    href="https://www.artstation.com/manueld03251994"
                     className="btn"
                   >
-                    <span>Download CV</span>
+                    <span>My ArtStation</span>
                   </a>
                   <a href="#skills-section" className="btn-lnk">
                     {" "}
