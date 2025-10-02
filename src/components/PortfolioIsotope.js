@@ -31,7 +31,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
 
   const projects = [
     { title: "Kasala", categories: ["sorting-unity", "sorting-vr"], image: "assets/images/work1.jpeg", description: "A visually stunning immersive game experience.", href: "/work-single" },
-    { title: "Ochanya Nurse Run", categories: ["sorting-unity", "sorting-action-adventure"], image: "assets/images/work2.jpeg", description: "Engaging gameplay with immersive storytelling", href: "/work-single" },
+    { title: "Mada Not Ochanya Nurse Run", categories: ["sorting-unity", "sorting-action-adventure"], image: "assets/images/work2.jpeg", description: "Engaging gameplay with immersive storytelling", href: "/work-single" },
     { title: "Kabal Hunt", categories: ["sorting-unreal", "sorting-multiplayer"], image: "assets/images/work3.jpeg", description: "High-intensity action with cinematic visuals.", href: "/work-single" },
     { title: "Explore VR", categories: ["sorting-unity", "sorting-vr", "sorting-ui-ux"], image: "assets/images/work4.jpeg", description: "Virtual reality game optimized for Oculus and HTC Vive.", href: "/work-single" },
     { title: "Stay Fit", categories: ["sorting-unity", "sorting-multiplayer", "sorting-ui-ux"], image: "assets/images/work5.jpeg", description: "Interactive fitness game with multiplayer support.", href: "/work-single" },
